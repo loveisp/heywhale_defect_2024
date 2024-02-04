@@ -1,0 +1,9 @@
+python ./src/train_convnext_large.py 0
+python ./src/train_convnext_large.py 2
+python ./src/train_convnext_base.py 0
+python ./src/train_convnext_base.py 3
+python ./src/train_maxvit_t.py 1
+python ./src/train_maxvit_t.py 3
+python ./src/train_vit_h_14.py 0
+python ./src/train_vit_h_14.py 2
+python ./src/train_vit_h_14.py 3

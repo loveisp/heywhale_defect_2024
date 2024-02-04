@@ -21,3 +21,10 @@ deploy_key_rsa
 /inference/models/*
 /inference/data/test_B/imgs/
 /inference/data/test_B/masks/
+
+/train/models/*
+/train/logs/*
+/train/data/train/imgs/
+/train/data/train/masks/
+/train/data/test_A/imgs/
+/train/data/test_A/masks/
