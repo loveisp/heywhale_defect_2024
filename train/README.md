@@ -11,7 +11,13 @@
             - 提交样例.csv
     - src
         - extract.py
-        - train.py
+        - split_5_folds.csv
+        - split_5_folds.py
+        - train.sh
+        - train_convnext_base.py
+        - train_convnext_large.py
+        - train_maxvit_t.py
+        - train_vit_h_14.py
     - README.md
     - requirements.txt
     
@@ -24,6 +30,13 @@
 可以根据机器的cpu数量调整进程数，即extract.py中的processes变量。
 
 我在本地机器把进程数设为16，整个提取图像的过程大约需要半分钟。
+
+## 划分5折交叉验证
+
+在train目录下，运行以下命令：python ./src/split_5_folds.py
+
+运行之后，会在src目录下生成split_5_folds.csv文件，该文件为之后训练时要用到的5折交叉验证的文件。
+
 
 ## 运行训练代码
 
