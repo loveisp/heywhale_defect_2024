@@ -19,4 +19,5 @@ deploy_key_rsa
 
 /inference/提取答案.ipynb
 /inference/models/*
-/inference/data/*
+/inference/data/test_B/imgs/
+/inference/data/test_B/masks/
