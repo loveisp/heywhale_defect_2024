@@ -1,6 +1,8 @@
 ## 下载模型权重
 
-从百度网盘：https://pan.baidu.com/s/16atnFSjTkFN4BrWlEAE5lg?pwd=ahnw 下载模型权重，将下载的models目录放到inference目录下。可参考以下目录结构。
+从百度网盘：https://pan.baidu.com/s/16atnFSjTkFN4BrWlEAE5lg?pwd=ahnw 下载模型权重。
+
+将下载的models目录放到inference目录下。可参考以下目录结构。
 
 ## 目录结构
 
