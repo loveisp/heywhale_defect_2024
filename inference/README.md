@@ -37,7 +37,7 @@
 
 运行之后，会根据data目录中的csv文件，在data目录中生成imgs和masks两个目录。
 
-可以根据机器的cpu数量调整进程数，即文件中的processes变量。
+可以根据机器的cpu数量调整进程数，即extract.py中的processes变量。
 
 我在本地机器把进程数设为16，整个提取图像的过程大约需要3分钟。
 
@@ -45,7 +45,7 @@
 
 在inference目录下，运行：python ./src/infer.py
 
-运行之后，会在outputs目录下生成preds_testB.csv，即是我的B榜分数0.7926的提交文件。
+运行之后，会在outputs目录下生成preds_testB.csv，即我的B榜分数0.7926的提交文件。
 
 整个推理过程在我这边的单卡4090上大约需要7分钟，显存占用最多时不到20G。
 
@@ -53,4 +53,4 @@
 
 ## 运行环境
 
-可参考requirements.txt。都是非常常用的包。
+可参考requirements.txt，都是非常常用的包。
