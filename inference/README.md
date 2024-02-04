@@ -5,18 +5,17 @@
 ## 目录结构
 
 整个目录结构如下：
-
-inference
-├─data
-├─models
-    ├─convnext_base
-    ├─convnext_large
-    ├─maxvit_t
-    └─vit_h_14
-├─src
-├─outputs
-├─README.md
-└─requirements.txt
+- inference
+    - data
+    - models
+        - convnext_base
+        - convnext_large
+        - maxvit_t
+        - vit_h_14
+    - src
+    - outputs
+    - README.md
+    - requirements.txt
 
 ## 运行推理代码
 
